@@ -1,0 +1,5 @@
+{
+  "env": {
+    "NEXT_PUBLIC_CONVEX_URL": "https://giant-bullfrog-444.convex.cloud"
+  }
+}

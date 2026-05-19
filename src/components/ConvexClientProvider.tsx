@@ -17,6 +17,10 @@ export function ConvexClientProvider({ children }: { children: ReactNode }) {
           <br />
           <code className="text-sm">npx convex dev</code>{" "}
           実行後に .env.local を確認してください。
+          <br />
+          Vercel 本番では環境変数{" "}
+          <code className="text-emerald-400">NEXT_PUBLIC_CONVEX_URL</code>{" "}
+          を設定して再デプロイしてください。
         </p>
       </div>
     );
